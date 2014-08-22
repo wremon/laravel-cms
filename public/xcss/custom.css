@@ -1,0 +1,175 @@
+.full-width{
+	width: 100%;
+}
+textarea.full-width,
+input.full-width,
+select.full-width{
+	width: 95%;
+}
+textarea.error-field,
+input.error-field,
+select.error-field{
+	border: 1px solid #ca3838;
+	color: #ca3838;
+	background: #f0c5c5;
+}
+
+
+.mrgn{
+	margin:10px !important;
+}
+.mrgn-0{
+	margin:0 !important;
+}
+.mrgn-t{
+	margin-top:10px !important;
+}
+.mrgn-t-0{
+	margin-top:0 !important;
+}
+.mrgn-r{
+	margin-right:10px !important;
+}
+.mrgn-r-0{
+	margin-right:0 !important;
+}
+.mrgn-b{
+	margin-bottom:10px !important;
+}
+.mrgn-b-0{
+	margin-bottom:0 !important;
+}
+.mrgn-l{
+	margin-left:10px !important;
+}
+.mrgn-l-0{
+	margin-left:0 !important;
+}
+
+.padd{
+	padding:10px !important;
+}
+.padd-0{
+	padding:0 !important;
+}
+.padd-t{
+	padding-top:10px !important;
+}
+.padd-t-0{
+	padding-top:0 !important;
+}
+.padd-r{
+	padding-right:10px !important;
+}
+.padd-r-0{
+	padding-right:0 !important;
+}
+.padd-b{
+	padding-bottom:10px !important;
+}
+.padd-b-0{
+	padding-bottom:0 !important;
+}
+.padd-l{
+	padding-left:10px !important;
+}
+.padd-l-0{
+	padding-left:0 !important;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.block{
+	display: block;
+	width: 100%;
+}
+.note{
+	color: #777777;
+}
+.bold{
+	font-weight: bold !important;
+}
+
+.flexible{
+	margin-left: 0;
+}
+
+.error-container{
+	margin-top: 100px;
+}
+
+@media (min-width: 1200px) {
+	.flexible{
+		margin-left: 30px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.flexible{
+		margin-left: 20px;
+	}
+}
+
+
+/* ---------------------------------------------------------------- */
+body{
+	background: #efefef;
+}
+#header{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.navigation{
+	margin: 10px 0;
+}
+.login form{
+	margin-top: 100px;
+}
+.page-title{
+	margin-bottom: 15px;
+}
+.container{
+	background: #ffffff;
+	padding: 15px;
+}
+
+.auto-width{
+	width: auto;
+}
+input[type="text"].auto-width{
+	width: 20px;
+}
+.hide{
+	display: none;
+}
+
+.panel{
+	position: relative;
+	margin: 15px 0;
+	padding: 39px 0 14px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.panel .title{	position: absolute;
+	top: -1px;
+	left: -1px;
+	padding: 5px 10px;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #f5f5f5;
+	border: 1px solid #ddd;
+	color: #333333;
+	-webkit-border-radius: 4px 0 4px 0;
+	-moz-border-radius: 4px 0 4px 0;
+	border-radius: 4px 0 4px 0;
+}
+
+.panel .content{
+	padding: 0 15px;
+}

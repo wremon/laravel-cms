@@ -1,0 +1,87 @@
+.handle{
+	cursor: move;
+}
+.ui-sortable-helper{
+	background: #f4f4f4;
+}
+
+#attachments-list img{
+	width: 100%;
+}
+#attachments-list .file-name{
+	word-break: break-all;
+}
+
+#multiple-file-upload{
+	content: "asdasd";
+}
+
+.ui-sortable-placeholder{
+	border: 2px dashed #00a65a;
+	background: #f7f7f7;
+	min-height: 30px;
+	visibility: visible !important;
+	margin-bottom: 10px;
+}
+
+
+ul.sortable-connect .box{
+	margin-bottom: 10px;
+}
+.sortable-menu li{
+	position: relative;
+}
+.submenu .submenu{
+	/*position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;*/
+	position: relative;
+	margin-left: 30px;
+}
+
+.full-width{
+	width: 100%;
+}
+
+
+#menu-editor .box-body.pad{
+	display: none;
+}
+
+.menu{
+
+}
+.menu .item{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.menu .item-body{
+	padding: 10px 10px 0;
+	border: 1px solid #aaaaaa;
+	border-top: none;
+}
+.menu .item-header{
+	padding: 5px 10px;
+	background: #00c0ef;
+}
+.menu .item-title{
+	cursor: pointer;
+}
+.menu .body{
+	/*display: none;*/
+}
+.menu .unsortable{
+	height: 10px;
+	background: #aaa;
+/*	position: absolute;
+	left: 0;
+	width: 30px;
+	bottom: 0;
+	z-index: 999;*/
+}
+
+/*.ui-sortable-placeholder + .menu > ul{
+	min-height: 30px;
+	background: #000;
+}*/

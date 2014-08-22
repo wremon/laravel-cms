@@ -1,0 +1,13 @@
+Current Branch: LOCAL
+
+file.txt
+
+go to path (cd /c/...)
+git add -A                -- update modified files
+git commit -m "message"   -- description
+git checkout master       -- switch to MASTER branch
+git merge local           -- update LOCAL changes to MASTER
+git push origin master
+   Password: gitpass
+
+git checkout local
